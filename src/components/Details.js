@@ -29,8 +29,8 @@ const Details = () => {
                     {product.name}
                 </div>
                 <div className="details__prices">
-    <span className="details__actaul">{currencyFormatter.format(product.price, { code: 'USD' })}</span>
-    <span className="details__discount">{currencyFormatter.format(product.discountPrice, { code: 'USD' })}</span>
+   
+    <span className="details__actual">{currencyFormatter.format(product.price, { code: 'USD' })}</span>
 
                 </div>
                 <div className="details__info">
@@ -41,10 +41,7 @@ const Details = () => {
     <button className="btn-default" onClick={() => dispatch({type: 'ADD_TO_CART', payload: {product, quantity} })}>add to cart</button>
     </div>
                 </div>
-                <div className="details__p">
-                    <h4>Details</h4>
-                    {product.desc}
-                </div>
+                
                 </div>
             </div>
         </div>

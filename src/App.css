@@ -141,13 +141,11 @@ a {
 	margin: 10px 0;
 }
 .details__actaul {
-	text-decoration: line-through;
+	
 	font-size: 20px;
 }
-.details__discount {
-	margin-left: 20px;
-	font-size: 20px;
-}
+
+
 .details__incDec {
 	display: flex;
 }
